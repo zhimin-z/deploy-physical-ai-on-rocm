@@ -19,9 +19,9 @@
 
 ## 设计目标
 
-目标是让 world-model / vision-language-action 工作流在 ROCm 上可用，而不至于把 notebook 变成一个脆弱、难以复用的一次性 demo。
+目标是让 Physical AI / vision-language-action（VLA）工作流在 ROCm 上真正跑得起来，而不至于把 notebook 变成一个脆弱、难以复用的一次性 demo。
 
-实际上，这意味着 notebook 只覆盖对真正部署 Physical AI 模型至关重要的部分：
+具体来说，这意味着 notebook 只覆盖部署 Physical AI 模型时真正关键的部分：
 
 - 在 AMD 硬件上部署通用 Physical AI / VLA 模型
 - 验证 ROCm、BF16 和 PyTorch/HIP 是否正确配置
