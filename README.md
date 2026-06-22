@@ -1,5 +1,7 @@
 # Deploy General-Purpose Physical AI on AMD ROCm in 15 Minutes
 
+![Preface](images/preface_en.png)
+
 *π0.5 is the worked example for fast setup and first inference*
 
 [![ROCm](https://img.shields.io/badge/ROCm-7.x-00A3E0?logo=amd)](https://rocm.docs.amd.com/)
@@ -38,8 +40,8 @@ Training does **not** start automatically. The notebook only launches finetuning
 
 ## Files
 
-- [`pi0.5_rocm_tutorial.ipynb`](./pi0.5_rocm_tutorial.ipynb) - end-to-end ROCm tutorial notebook
-- [`tunableop_results0.csv`](./tunableop_results0.csv) - backend validation artifact produced by TunableOp/ROCm tuning
+- [`notebooks/pi0.5_rocm_tutorial.ipynb`](./notebooks/pi0.5_rocm_tutorial.ipynb) - end-to-end ROCm tutorial notebook
+- [`notebooks/tunableop_results0.csv`](./notebooks/tunableop_results0.csv) - backend validation artifact produced by TunableOp/ROCm tuning
 
 ## Expected Output
 
@@ -73,7 +75,7 @@ Do not present it as proof that finetuning completed unless the notebook also ru
 
 ## Quick Start
 
-1. Open [`pi0.5_rocm_tutorial.ipynb`](./pi0.5_rocm_tutorial.ipynb) in Jupyter.
+1. Open [`notebooks/pi0.5_rocm_tutorial.ipynb`](./notebooks/pi0.5_rocm_tutorial.ipynb) in Jupyter.
 2. Run the cells in order.
 3. Confirm the environment, dependency installation, and weight loading steps pass.
 4. Run the dummy inference cell.
