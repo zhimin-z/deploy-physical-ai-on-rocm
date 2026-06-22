@@ -45,7 +45,7 @@
 | **Title** | Deploy General-Purpose Physical AI on AMD ROCm in 15 Minutes |
 | **Description** | End-to-end ROCm tutorial that gets a general-purpose Physical AI / VLA model (π0.5 as the example policy) running on AMD hardware: verifies ROCm/BF16/PyTorch-HIP, loads π0.5 weights locally, runs a synthetic inference pass, and prepares an opt-in finetuning command. |
 | **Category** | Robotics |
-| **Tags** | rocm, amd, pi0.5, lerobot, vla, physical-ai, world-model, pytorch, bf16, inference, finetuning, gfx1100 |
+| **Tags** | rocm, amd, pi0.5, lerobot, vla, physical-ai, pytorch, bf16, inference, finetuning, gfx1100 |
 | **Container Image** | AMD OneClick Base (amd-oneclick-base:rocm7.2.1-py3.12-v20260416) |
 | **GitHub Repo URL** | https://github.com/zhimin-z/deploy-physical-ai-on-rocm |
 | **Branch** | main |

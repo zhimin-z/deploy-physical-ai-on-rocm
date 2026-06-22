@@ -12,12 +12,14 @@
 [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)](https://jupyter.org/)
 [![LeRobot](https://img.shields.io/badge/LeRobot-pi05-111111)](https://github.com/huggingface/lerobot)
 
-本教程旨在快速让一个通用 Physical AI 模型在 AMD ROCm 上跑起来。
+本教程旨在让通用 Physical AI 模型在 AMD ROCm 上快速运行起来。
 它以 π0.5 作为示例策略（policy），随后验证 GPU 运行时（runtime）、运行一次合成推理（synthetic inference），并为自定义数据集准备一条 finetuning 命令。
 
-## 为什么要做这个
+> 🔰 **初识 ROCm？** 如果你刚接触 AMD ROCm，建议先过一遍 [datawhalechina/hello-rocm](https://github.com/datawhalechina/hello-rocm) 这份入门教程，了解 ROCm 的基本概念与环境，再回来部署 Physical AI 模型。
 
-目标是让 world-model / vision-language-action 工作流在 ROCm 上可用，而不把 notebook 变成一个脆弱的一次性 demo。
+## 设计目标
+
+目标是让 world-model / vision-language-action 工作流在 ROCm 上可用，而不至于把 notebook 变成一个脆弱、难以复用的一次性 demo。
 
 实际上，这意味着 notebook 只覆盖对真正部署 Physical AI 模型至关重要的部分：
 
